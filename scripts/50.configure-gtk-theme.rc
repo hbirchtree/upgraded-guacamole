@@ -1,0 +1,4 @@
+echo "-- Configuring GTK theme (gsettings)"
+
+gsettings set org.gnome.desktop.interface gtk-theme 'Numix'
+gsettings set org.gnome.desktop.wm.preferences theme 'Numix'

@@ -1,0 +1,7 @@
+echo "-- Installing packages"
+
+sudo apt-get -y install $(cat lists/install.list|grep -v '#')
+
+sudo dpkg -i packages/*.deb
+
+sudo apt-get -f install

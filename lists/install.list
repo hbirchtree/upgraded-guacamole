@@ -1,0 +1,85 @@
+# Everyday use
+chromium-browser
+liferea
+polari
+gnome-mplayer
+gimp
+htop
+vim
+
+# Customizations
+roccat-tools
+numix-gtk-theme
+gnome-tweak-tool
+joystick
+pulseaudio-utils
+
+# Networking
+nmap
+openssh-server
+
+# Compression utilities
+p7zip-full
+unrar
+
+# LaTeX
+kile
+texlive-lang-european
+
+# Games
+wine
+winetricks
+gnome-exe-thumbnailer
+dolphin-emu-master
+
+# System management
+gparted
+
+# Compiling/IDE/stuff
+build-essential
+swig3.0
+cmake
+doxygen
+clang-3.8
+ninja-build
+clang-format-3.8
+lldb-3.8
+valgrind
+ghex
+
+# Git tools
+git
+meld
+gource
+
+# Android dev
+android-tools-adb
+android-tools-fastboot
+ant
+openjdk-8-jdk
+
+# Virtualization/containers
+docker-engine # sourced from Docker repo
+libvirt-bin
+qemu-system-x86
+virt-manager
+
+# Git issues
+ruby-dev
+
+# Development libraries
+qt5-default
+qtdeclarative5-dev
+apitrace-gui
+libavcodec-dev
+libavdevice-dev
+libavformat-dev
+libswresample-dev
+libswscale-dev
+libsdl2-dev
+libopenal-dev
+libssl-dev
+libunwind-dev
+
+# Fan control/temps
+lm-sensors

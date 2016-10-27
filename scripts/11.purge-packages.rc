@@ -1,0 +1,3 @@
+echo "-- Purging unwanted packages"
+
+sudo apt-get purge $(cat lists/purge.list|grep -v '#')
