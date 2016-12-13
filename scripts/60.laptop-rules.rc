@@ -1,0 +1,29 @@
+if [[ "$(hostname)" = "Capricorni" ]]; then
+    echo "Paste this into /etc/default/grub:"
+    echo "------------------------------------"
+    sed -e "s/quiet splash/quiet splash i915.enable_psr=0/g" /etc/default/grub
+    echo "------------------------------------"
+    echo "Press ENTER when the above operation is complete"
+    sudo update-grub2
+    
+    echo "Paste this into /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla:"
+    echo "------------------------------------"
+    echo "
+[Re-enable hibernate by default in upower]
+Identity=unix-user:*
+Action=org.freedesktop.upower.hibernate
+ResultActive=yes
+
+[Re-enable hibernate by default in logind]
+Identity=unix-user:*
+Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.handle-hibernate-key;org.freedesktop.login1;org.freedesktop.login1.hibernate-multiple-sessions;org.freedesktop.login1.hibernate-ignore-inhibit
+ResultActive=yes
+    "
+    echo "------------------------------------"
+
+    echo "Paste this into ~/.bashrc:"
+    echo "------------------------------------"
+    echo "alias nvrun='DRI_PRIME=1'
+alias nvrun_dbg='DRI_PRIME=1 GALLIUM_HUD=fps,cpu'"
+    echo "------------------------------------"
+fi
