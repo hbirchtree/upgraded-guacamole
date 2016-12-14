@@ -4,6 +4,7 @@ if [[ "$(hostname)" = "Capricorni" ]]; then
     sed -e "s/quiet splash/quiet splash i915.enable_psr=0/g" /etc/default/grub
     echo "------------------------------------"
     echo "Press ENTER when the above operation is complete"
+    read
     sudo update-grub2
     
     echo "Paste this into /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla:"
@@ -20,10 +21,12 @@ Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.handle-hibernate-
 ResultActive=yes
     "
     echo "------------------------------------"
+    read
 
     echo "Paste this into ~/.bashrc:"
     echo "------------------------------------"
     echo "alias nvrun='DRI_PRIME=1'
 alias nvrun_dbg='DRI_PRIME=1 GALLIUM_HUD=fps,cpu'"
     echo "------------------------------------"
+    read
 fi
