@@ -25,6 +25,21 @@ Host capricorni.hamachi
     User havard
     Hostname 25.34.80.9
     Port 108
+
+Host Capricorni.local
+    User havard
+    Hostname Capricorni.home
+    Port 108
+
+Host Betelgeuse.local
+    User havard
+    Hostname Betelgeuse.home
+    Port 108
+
+Host Raspi3.local
+    User pi
+    Hostname RaspberryPi3.home
+    Port 108
 " >> ~/.ssh/config
 
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAADAQCziQj+3KpWX/kasmgA1icH4M2QDhjClkzDpaokFSS5vXX8ntQNYjUeCQnTy6IK0PYxdT3juw8For/JN4Sq0HyKDxyGRungJTl+D/dhD9lcR++EKmEEYl8DMCHw8H7+EXJSWOzOZ8/UukDunCBQ8UR2juGga3BxoIjZ++jniG0jXx4gh6o4qz4/Tu68RBWRdCoXI0nDqccztUzEg9pBww6CNdurGUHDk2NLP87JW4z5xKPUnpjqRQ5UZooTCZl0EWPimKwsTEvSxAIBvP4L6YyWd30ieUsZFWo9WsH7QocDkN9wBHJX1l1os7Za6BMNlIxOwSlAMAukBoFziVD+JMoNO94gFmkytjhmCP+2bap/7HuW+xe0j3pCVrL5ZO66WebkpQFJ6PgtHRBm1BNOw0gA35qI+5Cdars7ZxZZ5uDruXpQFOR9K5OjrgEqpO5cMhgGca1Zg4b+XAUQ6xuYZypvD+Q+7k4wNKuYKQ+a1GgNVDko4yG2TTnXya8A1/xwBIjUdUTBkHoXa+rOAd5IBDD30NNJr0zQr0HB/9LntajP8MHjMmkZ4yAYRgi5uuci6zIZUdRkOGrTauap1YuEWvi13RUOrPFmxBOYn29S3TPdzh4AILnCtN6bZZYVy2+VqCp+yn0PWaOVO5pOwFNo3ty8wR/u3oDYVvgSrHS93dOGMY+nX5ttwSJrB4I9E1P/XjzciCL6IHJz9Enh3A2mJxJLJMCufrRRezE/MNa+reOXJ02EGUt6h4iLrCYsLwyU6GwDscwzpAGrW8T1sUWFotEmVG1kguCRhs+yjSSmUgAge1vK1/XJNQlvNTvZ/SwLKvzUBThIJzt3+vOCw3kkJLWAqsMZyzUnD6c/Hhe98Y8eDZkveUDvIqOO+aV84vfuPYpqWEPnNzw/ldfS7OcMGTQTlKX9yn+GX4O9cnMYmjx9k4e///7VnQocgnVUgXAvGSiS/arSU+3ektu3aGcEzA/wWcMOoxB4siu/ST0ag8JhT9lbF7YUn7Nxmh7CdTfbzfs= Betelgeuse" >> ~/.ssh/authorized_keys
