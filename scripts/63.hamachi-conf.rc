@@ -4,13 +4,23 @@ sudo su -c 'echo "Ipc.User havard" > /var/lib/logmein-hamachi/h2-engine-override
 echo "-- Restarting Hamchi service"
 sudo service logmein-hamachi restart
 
-echo "-- Setting up VPN aliases"
-hamachi vpn-alias 199-311-310 25.0.0.2  # Betelgeuse
-hamachi vpn-alias 190-078-077 25.0.0.3  # Capricorni
-hamachi vpn-alias 177-599-510 25.0.0.31 # Capricorni (Windows)
-hamachi vpn-alias 205-249-332 25.0.0.4  # Raspberry Pi 3
-hamachi vpn-alias 211-171-743 25.0.0.5  # Raspberry Pi Zero
-hamachi vpn-alias 206-947-992 25.0.0.6  # Windows server
-hamachi vpn-alias 197-779-475 25.0.0.7  # Android devices
+sleep 20
 
+# 1 - client ID
+# 2 - new alias
+function add_vpn_alias()
+{
+    echo "-- Mapping $1 to $2"
+    hamachi vpn-alias $1 $2
+    sleep 2
+}
+
+echo "-- Setting up VPN aliases"
+add_vpn_alias 199-311-310 25.0.0.2  # Betelgeuse
+add_vpn_alias 190-078-077 25.0.0.3  # Capricorni
+add_vpn_alias 177-599-510 25.0.0.31 # Capricorni (Windows)
+add_vpn_alias 205-249-332 25.0.0.4  # Raspberry Pi 3
+add_vpn_alias 211-171-743 25.0.0.5  # Raspberry Pi Zero
+add_vpn_alias 206-947-992 25.0.0.6  # Windows server
+add_vpn_alias 197-779-475 25.0.0.7  # Android devices
 
