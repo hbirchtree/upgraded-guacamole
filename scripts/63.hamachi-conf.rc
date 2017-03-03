@@ -1,2 +1,3 @@
 echo "-- Granting Hamachi control to user"
-sudo su -c 'echo "Ipc.User havard" > /var/lib/logmein-hamachi/h2-engine-override.cfg'
+sudo su -c 'echo "Ipc.User havard
+Ipc.User pi" > /var/lib/logmein-hamachi/h2-engine-override.cfg'
