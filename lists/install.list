@@ -6,9 +6,10 @@ gnome-mplayer
 gimp
 htop
 vim
+spotify-client
 
 # Customizations
-roccat-tools
+#roccat-tools
 numix-gtk-theme
 gnome-tweak-tool
 joystick
@@ -27,8 +28,8 @@ kile
 texlive-lang-european
 
 # Games
-wine
-winetricks
+#wine
+#winetricks
 gnome-exe-thumbnailer
 dolphin-emu-master
 
@@ -46,6 +47,7 @@ clang-format-3.8
 lldb-3.8
 valgrind
 ghex
+ssh-askpass-fullscreen
 
 # Git tools
 git
