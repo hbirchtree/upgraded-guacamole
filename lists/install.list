@@ -61,7 +61,7 @@ ant
 openjdk-8-jdk
 
 # Virtualization/containers
-docker-engine # sourced from Docker repo
+docker-engine
 libvirt-bin
 qemu-system-x86
 virt-manager
