@@ -50,6 +50,7 @@ lldb-3.8
 valgrind
 ghex
 ssh-askpass-fullscreen
+lcov
 
 # Git tools
 git

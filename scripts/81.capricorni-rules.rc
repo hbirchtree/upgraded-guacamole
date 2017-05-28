@@ -1,7 +1,7 @@
 if [[ "$(hostname)" = "Capricorni" ]]; then
     echo "-- Installing Capricorni packages"
     sudo apt purge xserver-xorg-input-synaptics
-    sudo apt install xserver-xorg-input-libinput xdotool libinput-tools
+    sudo apt install xserver-xorg-input-libinput xdotool libinput-tools tlp
     sudo gem install fusuma
     echo "-- Installing Clickpad configuration"
     sudo mkdir -p /etc/X11/xorg.conf.d/
