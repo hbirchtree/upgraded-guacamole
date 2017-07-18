@@ -1,14 +1,17 @@
 # Everyday use
+ssh-askpass-fullscreen
 chromium-browser
 liferea
 polari
 gnome-mplayer
 gimp
+screen
 htop
 vim
+spotify-client
 
 # Customizations
-roccat-tools
+#roccat-tools
 numix-gtk-theme
 gnome-tweak-tool
 joystick
@@ -28,8 +31,8 @@ kile
 texlive-lang-european
 
 # Games
-wine
-winetricks
+#wine
+#winetricks
 gnome-exe-thumbnailer
 dolphin-emu-master
 
@@ -47,6 +50,8 @@ clang-format-3.8
 lldb-3.8
 valgrind
 ghex
+ssh-askpass-fullscreen
+lcov
 
 # Git tools
 git
@@ -60,7 +65,7 @@ ant
 openjdk-8-jdk
 
 # Virtualization/containers
-docker-engine # sourced from Docker repo
+docker-engine
 libvirt-bin
 qemu-system-x86
 virt-manager
