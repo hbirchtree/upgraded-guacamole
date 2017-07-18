@@ -13,6 +13,7 @@ numix-gtk-theme
 gnome-tweak-tool
 joystick
 pulseaudio-utils
+blueman
 
 # Networking
 nmap
