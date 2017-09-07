@@ -9,6 +9,8 @@ screen
 htop
 vim
 spotify-client
+tmux
+screen
 
 # Customizations
 #roccat-tools
