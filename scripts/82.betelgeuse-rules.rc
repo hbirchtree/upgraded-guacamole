@@ -1,0 +1,3 @@
+if [[ "$(hostname)" = "Betelgeuse" ]]; then
+	sudo apt install indicator-cpufreq
+fi

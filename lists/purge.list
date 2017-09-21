@@ -4,3 +4,6 @@ gnome-mahjongg
 gnome-mines
 gnome-sudoku
 aisleriot
+zeitgeist-.*
+deja-dup
+enchant
