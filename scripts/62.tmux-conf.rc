@@ -10,3 +10,7 @@ set-option -g mouse-select-pane on
 bind-key C-a last-window
 bind-key C-s previous-window" \
  > ~/.tmux.conf
+
+git clone 'https://github.com/tmux-plugins/tmux-resurrect.git' ~/Code/tmux-resurrect
+
+echo "run-shell ~/clone/path/resurrect.tmux" >> ~/.tmux.conf

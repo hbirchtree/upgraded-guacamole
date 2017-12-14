@@ -1,0 +1,10 @@
+
+# Get Bloaty McBloatFace
+git clone 'https://github.com/google/bloaty.git' ~/Code/bloaty
+
+mkdir -p ~/Code/bloaty/build
+cd ~/Code/bloaty/build
+cmake ..
+make -j$(nproc)
+ln -s $PWD/bloaty ~/.local/bin/bloaty
+

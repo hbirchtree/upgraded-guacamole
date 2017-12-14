@@ -1,0 +1,9 @@
+mkdir -p \
+	~/Code \
+	~/.local/share \
+	~/.local/bin \
+	~/.local/scripts \
+	~/Dropbox/Apps \
+	~/Dropbox/Filespace/$HOSTNAME
+
+ln -s ~/Dropbox/Apps ~/.local/apps
