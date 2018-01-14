@@ -1,6 +1,8 @@
 if [[ "$(hostname)" = "Betelgeuse" ]]; then
 	sudo apt install indicator-cpufreq
 
+	sudo cp lists/betelgeguse-udev-rules.list /etc/udev/rules.d/50-betelgeuse.rules
+
 	sudo sh -c 'echo \
 "softdep nvidia pre: vfio-pci
 options vfio-pci ids=10de:13c2,10de:0fbb" >> /etc/modprobe.d/vfio.conf'

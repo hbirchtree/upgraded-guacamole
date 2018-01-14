@@ -1,0 +1,4 @@
+ACTION=="add", KERNEL=="0000:05:00.0", SUBSYSTEM=="pci", RUN+="/bin/sh -c 'echo 1 > /sys/bus/pci/devices/0000:05:00.0/remove'"
+ACTION=="add", KERNEL=="0000:06:00.0", SUBSYSTEM=="pci", RUN+="/bin/sh -c 'echo 1 > /sys/bus/pci/devices/0000:06:00.0/remove'"
+
+SUBSYSTEM=="usb", ATTRS{idVendor}=="18d1", MODE="0666", GROUP="plugdev"
