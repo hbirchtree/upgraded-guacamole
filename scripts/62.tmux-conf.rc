@@ -13,4 +13,4 @@ bind-key C-s previous-window" \
 
 git clone 'https://github.com/tmux-plugins/tmux-resurrect.git' ~/Code/tmux-resurrect
 
-echo "run-shell ~/clone/path/resurrect.tmux" >> ~/.tmux.conf
+echo "run-shell ~/Code/tmux-resurrect/resurrect.tmux" >> ~/.tmux.conf
