@@ -1,22 +1,19 @@
 # Everyday use
 ssh-askpass-fullscreen
 chromium-browser
-liferea
-polari
-gnome-mplayer
 gimp
-screen
 htop
 vim
-spotify-client
+#spotify-client
 tmux
-screen
+#screen
+#gnome-mplayer
 
 # Customizations
 #roccat-tools
 numix-gtk-theme
 gnome-tweak-tool
-joystick
+#joystick
 pulseaudio-utils
 blueman
 
@@ -43,16 +40,16 @@ gparted
 
 # Compiling/IDE/stuff
 build-essential
-swig3.0
+swig
 cmake
 doxygen
-clang-3.8
+clang
 ninja-build
-clang-format-3.8
-lldb-3.8
+clang-format
+lldb
 valgrind
 ghex
-ssh-askpass-fullscreen
+#ssh-askpass-fullscreen
 lcov
 
 # Git tools
