@@ -1,0 +1,9 @@
+if grep 'goto.sh' ~/.bashrc; then
+echo "-- Already installed bash-goto"
+else
+git clone https://github.com/iridakos/goto.git ~/Code/bash-goto
+pushd ~/Code/bash-goto
+echo "-- Installing Bash 'goto' utility"
+echo "source ~/Code/bash-goto/goto.sh" >> ~/.bashrc
+popd
+fi

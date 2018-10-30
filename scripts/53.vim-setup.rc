@@ -3,5 +3,8 @@ if [[ -f ~/.vimrc ]]; then
 "filetype plugin indent on
 set expandtab
 set tabstop=4
-setshiftwidth=4" > ~/.vimrc
+setshiftwidth=4
+
+map <F7> :tabp <CR>
+map <F8> :tabn <CR>" > ~/.vimrc
 fi

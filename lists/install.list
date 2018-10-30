@@ -6,6 +6,7 @@ htop
 vim
 #spotify-client
 tmux
+x2x
 #screen
 #gnome-mplayer
 
@@ -45,7 +46,7 @@ cmake
 doxygen
 clang
 ninja-build
-clang-format
+clang-format-5.0
 lldb
 valgrind
 ghex
@@ -60,7 +61,6 @@ gource
 # Android dev
 android-tools-adb
 android-tools-fastboot
-ant
 openjdk-8-jdk
 
 # Virtualization/containers
