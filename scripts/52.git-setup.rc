@@ -5,3 +5,5 @@ git config --global user.name "Håvard Bjerke"
 git config --global push.default "matching"
 git config --global alias.graduate-testing "!git checkout testing && git merge unstable && git push && git checkout unstable"
 git config --global alias.graduate-master "!git checkout master && git merge testing && git push && git checkout testing"
+git config --global core.editor vim
+git config --global push.default matching
