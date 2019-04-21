@@ -4,6 +4,9 @@ if [[ -f ~/.vimrc ]]; then
 set expandtab
 set tabstop=4
 setshiftwidth=4
+syntax on
+set backspace=indent,eol,start
+set number
 
 map <F7> :tabp <CR>
 map <F8> :tabn <CR>" > ~/.vimrc
