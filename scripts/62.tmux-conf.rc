@@ -5,10 +5,13 @@ set -s escape-time 0
 set -g aggressive-resize on
 set -g monitor-activity on
 set -g visual-activity on
-set-option -g mouse-select-pane on
 
 bind-key C-a last-window
-bind-key C-s previous-window" \
+bind-key C-s previous-window
+
+bind '\"' split-window -c \"#{pane_current_path}\"
+bind % split-window -h -c \"#{pane_current_path}\"
+bind c new-window -c \"#{pane_current_path}\"" \
  > ~/.tmux.conf
 
 git clone 'https://github.com/tmux-plugins/tmux-resurrect.git' ~/Code/tmux-resurrect
