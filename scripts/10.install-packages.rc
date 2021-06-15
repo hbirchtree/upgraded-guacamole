@@ -7,3 +7,5 @@ sudo apt-get -y install $( ./listify.sh lists/install.list)
 sudo dpkg -i packages/*.deb
 
 sudo apt-get -f install
+
+sudo snap install gping

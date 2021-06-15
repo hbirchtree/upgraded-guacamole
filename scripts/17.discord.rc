@@ -1,0 +1,8 @@
+wget "https://discord.com/api/download?platform=linux&format=tar.gz" -O discord.tar.gz
+DISCORD=$PWD/discord.tar.gz
+mkdir -p ~/.local/discord
+pushd ~/.local/discord
+tar xvf $DISCORD
+popd
+
+rm discord.tar.gz

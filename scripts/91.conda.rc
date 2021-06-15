@@ -1,0 +1,7 @@
+VERSION=4.9.2
+FILE=Miniconda3-py39_$VERSION-Linux-x86_64.sh
+
+wget https://repo.anaconda.com/miniconda/$FILE -O miniconda.sh
+chmod +x miniconda.sh
+
+./miniconda.sh -s -p ~/.local/miniconda

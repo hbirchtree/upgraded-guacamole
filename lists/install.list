@@ -4,17 +4,16 @@ chromium-browser
 gimp
 htop
 vim
-#spotify-client
 tmux
 x2x
-#screen
-#gnome-mplayer
+transmission-gtk
+mpv
+autossh
 
 # Customizations
 #roccat-tools
 numix-gtk-theme
 gnome-tweak-tool
-#joystick
 pulseaudio-utils
 blueman
 
@@ -34,7 +33,7 @@ texlive-lang-european
 #wine
 #winetricks
 gnome-exe-thumbnailer
-dolphin-emu-master
+#dolphin-emu-master
 
 # System management
 gparted
@@ -46,7 +45,7 @@ cmake
 doxygen
 clang
 ninja-build
-clang-format-5.0
+clang-format-11
 lldb
 valgrind
 ghex
@@ -64,10 +63,11 @@ android-tools-fastboot
 openjdk-8-jdk
 
 # Virtualization/containers
-docker-engine
-libvirt-bin
+#docker-engine
+libvirt-daemon
 qemu-system-x86
 virt-manager
+virt-top
 
 # Git issues
 ruby-dev
@@ -75,6 +75,7 @@ ruby-dev
 # Development libraries
 qt5-default
 qtdeclarative5-dev
+qtquickcontrols2-5-dev
 apitrace-gui
 libavcodec-dev
 libavdevice-dev
@@ -88,3 +89,4 @@ libunwind-dev
 
 # Fan control/temps
 lm-sensors
+xsensors
